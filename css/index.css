@@ -11,6 +11,7 @@
   .container {
       padding: 80px 120px;
   }
+
   .person {
       border: 10px solid transparent;
       margin-bottom: 25px;
@@ -149,4 +150,11 @@ span h1{
   .logo{
     margin-top: 10px;
   }
+}
+#myCarousel img{
+  height:   80vh;
+  object-fit:   cover;  
+}
+.googleMap{
+  pointer-events:   none; 
 }
