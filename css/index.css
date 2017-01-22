@@ -135,7 +135,7 @@ img:hover {
   display:  inline; 
   width:  150px;
   height:   100px;
-  margin-top:   -60px;
+  margin-top:   -55px;
 }
 span h1{
   display:  inline; 
@@ -144,4 +144,9 @@ span h1{
 .maincont{
   text-align:   center;
   padding-bottom:   20px;
+}
+@media only screen and (max-width: 424px){
+  .logo{
+    margin-top: 10px;
+  }
 }
