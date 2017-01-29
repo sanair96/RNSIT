@@ -95,7 +95,7 @@
       background-color: #555 !important;
   }
   .dropdown-menu li a {
-      color: #000 !important;
+      color: white !important;
   }
   .dropdown-menu li a:hover {
       background-color: red !important;
@@ -133,13 +133,13 @@ img:hover {
   display:  none;
 }
 .logo{
-  display:  inline; 
+  display:  inline;
   width:  150px;
   height:   100px;
   margin-top:   -55px;
 }
 span h1{
-  display:  inline; 
+  display:  inline;
   font-size:  6em
 }
 .maincont{
@@ -153,8 +153,8 @@ span h1{
 }
 #myCarousel img{
   height:   80vh;
-  object-fit:   cover;  
+  object-fit:   cover;
 }
 .googleMap{
-  pointer-events:   none; 
+  pointer-events:   none;
 }
