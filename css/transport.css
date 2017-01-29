@@ -102,6 +102,7 @@ span h1{
   height:   80vh;
   object-fit:   cover;
 }
-.googleMap{
-  pointer-events:   none;
+
+.left-align{
+  text-align: left;
 }
