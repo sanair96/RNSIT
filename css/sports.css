@@ -12,9 +12,11 @@
       padding: 80px 120px;
   }
 
+
   .nav-tabs li a {
       color: #777;
   }
+
   .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
@@ -42,7 +44,7 @@
       background-color: #555 !important;
   }
   .dropdown-menu li a {
-      color: #000 !important;
+      color: black !important;
   }
   .dropdown-menu li a:hover {
       background-color: red !important;
@@ -59,22 +61,8 @@
       color: #777;
       text-decoration: none;
   }
-  .form-control {
-      border-radius: 0;
-  }
-  textarea {
-      resize: none;
-  }
-.text-center{
-  width: 100%;
-}
-img:hover {
-    border:   none;
-}
-#about{
-  margin-top:   30px;
-  width:  90%;
-}
+
+
 
 .hidden{
   display:  none;
@@ -98,14 +86,8 @@ span h1{
     margin-top: 10px;
   }
 }
-#myCarousel img{
-  height:   80vh;
-  object-fit:   cover;
-}
 
-.left-align{
-  text-align: left;
-}
+
 /*sub menu*/
 .dropdown-submenu {
     position: relative;

@@ -11,10 +11,16 @@
   .container {
       padding: 80px 120px;
   }
-
+  .bg-1 {
+      background: #2d2d30;
+      color: #bdbdbd;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
   .nav-tabs li a {
       color: #777;
   }
+
   .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
@@ -42,7 +48,7 @@
       background-color: #555 !important;
   }
   .dropdown-menu li a {
-      color: #000 !important;
+      color: black !important;
   }
   .dropdown-menu li a:hover {
       background-color: red !important;
@@ -62,19 +68,11 @@
   .form-control {
       border-radius: 0;
   }
-  textarea {
-      resize: none;
-  }
+
 .text-center{
   width: 100%;
 }
-img:hover {
-    border:   none;
-}
-#about{
-  margin-top:   30px;
-  width:  90%;
-}
+
 
 .hidden{
   display:  none;
@@ -102,9 +100,8 @@ span h1{
   height:   80vh;
   object-fit:   cover;
 }
-
-.left-align{
-  text-align: left;
+.googleMap{
+  pointer-events:   none;
 }
 /*sub menu*/
 .dropdown-submenu {
