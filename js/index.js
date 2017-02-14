@@ -1,7 +1,16 @@
 $(document).ready(function(){
   // Initialize Tooltip
+  $('.chairman').height($('.director').height());
   $('[data-toggle="tooltip"]').tooltip();
+    $(window).resize(function(){
+      if (window.matchMedia("(min-width: 480px)").matches) {
+        $('.chairman').height($('.director').height());
+      }
+      else{
+        $('.chairman').css({'height':'auto'});
+      }
 
+    });
     $(window).scroll(function (){
               height = $(window).scrollTop();
         if(height >150)
