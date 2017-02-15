@@ -12,7 +12,7 @@
 
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="-50">
-<nav class="navbar hidden navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -222,5 +222,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/index.js"></script>
+  <script type="text/javascript">
+    (function(){
+      if(!'serviceWorker' in navigator)
+      {
+        alert('Service Worker not supported. Use a different browser');
+        return;
+      }
+      navigator.serviceWorker.register('serviceWorker.js')
+      .then(function(registration){
+        console.log('Registered Service Worker. Scope -'+registration.scope);
+      })
+      .catch(function(error){
+        console.log('Registration Failed. Error - '+error);
+      });
+    })();
+  </script>
 </body>
 </html>

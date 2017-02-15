@@ -11,17 +11,6 @@ $(document).ready(function(){
       }
 
     });
-    $(window).scroll(function (){
-              height = $(window).scrollTop();
-        if(height >150)
-        {
-            $(".navbar").removeClass("hidden");
-        }
-        else
-        {
-          $(".navbar").addClass("hidden");
-        }
-    });
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
