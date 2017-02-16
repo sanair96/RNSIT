@@ -34,4 +34,14 @@ $(document).ready(function(){
       });
     } // End if
   });
+  $('#newsclick').click(function() {
+    ('#annmodal').hide();
+    alert("hi");
+  ('#newsmodal').show();
 });
+$('#annclick').click(function() {
+  ('#annmodal').show();
+  ('#newsmodal').hide();
+});
+});
+/*news modal*/

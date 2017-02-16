@@ -14,8 +14,8 @@
       padding: 80px 120px;
   }
 .overlay {
-   background:transparent; 
-   position:relative; 
+   background:transparent;
+   position:relative;
    width:100%;
    height:400px; /* your iframe height */
    top:400px;  /* your iframe height */
@@ -282,3 +282,10 @@ span h1{
   }
 
 /*End of Custom Card Layout*/
+/*news*/
+.news{
+ position:fixed;
+    bottom: 10px;
+    right:10px;
+}
+/*news*/
